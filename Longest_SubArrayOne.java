@@ -11,7 +11,7 @@ public class Longest_SubArrayOne {
                 count = 0;
             }
         }
-        return res;
+        return res== nums.length?res:res-1;
     }
     public static void main(String[] args) {
 //        we must have to delete one element
